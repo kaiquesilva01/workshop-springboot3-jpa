@@ -39,7 +39,14 @@ public class StandardError  implements Serializable  {
     public void setStatus(Integer status) {
         this.status = status;
     }
-    
+
+    public String getError() {
+        return error;
+    }
+
+    public void setError(String error) {
+        this.error = error;
+    }
 
     public String getMessage() {
         return message;
